@@ -1,0 +1,720 @@
+2024-05-01 11:42:21,561 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-05-01 11:42:21,592 INFO o.a.j.JMeter: Loading user properties from: C:\PROJECTS\JMETER\apache-jmeter-5.6.3\bin\user.properties
+2024-05-01 11:42:21,592 INFO o.a.j.JMeter: Loading system properties from: C:\PROJECTS\JMETER\apache-jmeter-5.6.3\bin\system.properties
+2024-05-01 11:42:21,592 INFO o.a.j.JMeter: Loading additional properties from: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\design.properties
+2024-05-01 11:42:21,592 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-05-01 11:42:21,592 INFO o.a.j.JMeter: Version 5.6.3
+2024-05-01 11:42:21,592 INFO o.a.j.JMeter: java.version=22.0.1
+2024-05-01 11:42:21,592 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-05-01 11:42:21,592 INFO o.a.j.JMeter: os.name=Windows 10
+2024-05-01 11:42:21,592 INFO o.a.j.JMeter: os.arch=amd64
+2024-05-01 11:42:21,592 INFO o.a.j.JMeter: os.version=10.0
+2024-05-01 11:42:21,592 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-05-01 11:42:21,592 INFO o.a.j.JMeter: java.awt.headless=null
+2024-05-01 11:42:21,592 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-05-01 11:42:21,592 INFO o.a.j.JMeter: Available Processors =8
+2024-05-01 11:42:21,608 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-05-01 11:42:21,608 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-05-01 11:42:21,608 INFO o.a.j.JMeter: JMeterHome=C:\PROJECTS\JMETER\apache-jmeter-5.6.3
+2024-05-01 11:42:21,608 INFO o.a.j.JMeter: user.dir  =C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso
+2024-05-01 11:42:21,608 INFO o.a.j.JMeter: PWD       =C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso
+2024-05-01 11:42:21,608 INFO o.a.j.JMeter: IP: 192.168.1.142 Name: DESKTOP-E60QIDB FullName: DESKTOP-E60QIDB
+2024-05-01 11:42:21,639 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-05-01 11:42:21,849 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2024-05-01 11:42:23,195 INFO o.a.j.r.ClassFinder: Will scan jar C:\PROJECTS\JMETER\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-05-01 11:42:23,430 INFO o.a.j.r.ClassFinder: Will scan jar C:\PROJECTS\JMETER\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-05-01 11:42:23,562 INFO o.j.r.JARSourceHTTP: Found cached repo
+2024-05-01 11:42:23,815 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.10, jmeter-core=5.6.3, jmeter-ftp=5.6.3, jmeter-http=5.6.3, jmeter-jdbc=5.6.3, jmeter-jms=5.6.3, jmeter-junit=5.6.3, jmeter-java=5.6.3, jmeter-ldap=5.6.3, jmeter-mail=5.6.3, jmeter-mongodb=5.6.3, jmeter-native=5.6.3, jmeter-tcp=5.6.3, jmeter-components=5.6.3]
+2024-05-01 11:42:25,000 INFO o.a.j.JMeterGuiLauncher: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\RAE.jmx
+2024-05-01 11:42:25,000 INFO o.a.j.s.FileServer: Default base='C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso'
+2024-05-01 11:42:25,000 INFO o.a.j.s.FileServer: Set new base='C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso'
+2024-05-01 11:42:25,332 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-05-01 11:42:25,348 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-05-01 11:42:25,348 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-05-01 11:42:25,363 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\RAE.jmx
+2024-05-01 11:42:25,473 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-05-01 11:42:25,473 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2024-05-01 11:42:25,582 INFO o.a.j.s.FileServer: Set new base='C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso'
+2024-05-01 11:42:25,957 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-05-01 11:42:25,957 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-05-01 11:42:25,957 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-05-01 11:42:25,957 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-05-01 11:42:26,082 INFO o.a.j.r.ClassFinder: Will scan jar C:\PROJECTS\JMETER\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-05-01 11:42:26,129 INFO o.a.j.r.ClassFinder: Will scan jar C:\PROJECTS\JMETER\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-05-01 11:42:26,754 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:42:26,754 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:42:26,847 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-05-01 11:42:26,847 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-05-01 11:42:26,847 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-05-01 11:42:26,847 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-05-01 11:42:26,847 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-05-01 11:42:26,847 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-05-01 11:42:26,910 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:42:26,910 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:42:26,941 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:42:26,941 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:42:26,988 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:42:26,988 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:42:27,004 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:42:27,004 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:15,427 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:15,427 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:15,474 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:48:15,474 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 11:48:15,490 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:15,490 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:15,521 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:48:15,521 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 11:48:15,521 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:15,521 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:16,943 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:16,943 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:16,974 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:48:16,974 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 11:48:16,974 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:16,974 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,021 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:48:17,021 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 11:48:17,021 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:17,021 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,052 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:17,052 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,084 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:48:17,084 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 11:48:17,084 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:17,084 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,115 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:48:17,115 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 11:48:17,130 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:17,130 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,162 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:17,162 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,193 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:48:17,193 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 11:48:17,193 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:17,193 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,224 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:48:17,224 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 11:48:17,240 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:17,240 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,271 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-05-01 11:48:17,271 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-05-01 11:48:17,271 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-05-01 11:48:17,271 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-05-01 11:48:17,271 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-05-01 11:48:17,318 INFO o.a.j.r.ClassFinder: Will scan jar C:\PROJECTS\JMETER\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-05-01 11:48:17,584 INFO o.a.j.r.ResultCollector: Folder at C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\Result was created
+2024-05-01 11:48:17,599 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-05-01 11:48:17,646 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Test Case Basico
+2024-05-01 11:48:17,646 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Test Case Basico.
+2024-05-01 11:48:17,646 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-05-01 11:48:17,646 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2024-05-01 11:48:17,646 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:17,646 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,662 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:48:17,662 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 11:48:17,677 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:17,677 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,677 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-1
+2024-05-01 11:48:17,693 INFO o.a.j.s.FileServer: Stored: data/data.csv
+2024-05-01 11:48:17,709 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:48:17,709 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 11:48:17,709 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:17,709 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,709 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-E60QIDB
+2024-05-01 11:48:17,730 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-05-01 11:48:17,744 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:48:17,745 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 11:48:17,754 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:17,754 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,776 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:48:17,776 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 11:48:17,785 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:17,785 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,812 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:48:17,812 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 11:48:17,817 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2024-05-01 11:48:17,819 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:17,819 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,820 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2024-05-01 11:48:17,821 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2024-05-01 11:48:17,842 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:48:17,842 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 11:48:17,848 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:17,848 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,855 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2024-05-01 11:48:17,856 INFO o.a.j.u.SSLManager: KeyStore created OK
+2024-05-01 11:48:17,856 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2024-05-01 11:48:17,871 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:48:17,871 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 11:48:17,877 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:17,877 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,897 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:48:17,897 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 11:48:17,902 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:17,903 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,932 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:48:17,932 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 11:48:17,938 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:17,938 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,958 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:48:17,959 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 11:48:17,965 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-05-01 11:48:17,965 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Test Case Basico 2
+2024-05-01 11:48:17,965 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Test Case Basico 2.
+2024-05-01 11:48:17,965 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-05-01 11:48:17,965 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2024-05-01 11:48:17,966 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:17,966 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,986 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:48:17,986 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 11:48:17,992 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2024-05-01 11:48:17,992 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Test GoToRae
+2024-05-01 11:48:17,992 INFO o.a.j.e.StandardJMeterEngine: Starting 4 threads for group Test GoToRae.
+2024-05-01 11:48:17,992 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-05-01 11:48:17,992 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=4 ramp-up=4 delayedStart=false
+2024-05-01 11:48:17,992 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:17,992 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:17,994 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 2 2-1
+2024-05-01 11:48:18,013 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:18,014 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:18,015 INFO o.a.j.t.JMeterThread: Thread started: Test GoToRae 3-1
+2024-05-01 11:48:18,038 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:18,039 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:18,062 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:48:18,063 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 11:48:18,087 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2024-05-01 11:48:18,088 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-05-01 11:48:18,195 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-2
+2024-05-01 11:48:18,694 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-3
+2024-05-01 11:48:19,020 INFO o.a.j.t.JMeterThread: Thread started: Test GoToRae 3-2
+2024-05-01 11:48:19,181 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-4
+2024-05-01 11:48:19,683 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-5
+2024-05-01 11:48:20,019 INFO o.a.j.t.JMeterThread: Thread started: Test GoToRae 3-3
+2024-05-01 11:48:20,179 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-6
+2024-05-01 11:48:20,678 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-7
+2024-05-01 11:48:21,020 INFO o.a.j.t.JMeterThread: Thread started: Test GoToRae 3-4
+2024-05-01 11:48:21,173 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-8
+2024-05-01 11:48:21,685 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-9
+2024-05-01 11:48:22,175 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-10
+2024-05-01 11:48:32,900 INFO o.a.j.t.JMeterThread: Thread is done: Test GoToRae 3-1
+2024-05-01 11:48:32,900 INFO o.a.j.t.JMeterThread: Thread finished: Test GoToRae 3-1
+2024-05-01 11:48:35,486 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-1
+2024-05-01 11:48:35,487 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-1
+2024-05-01 11:48:36,325 INFO o.a.j.t.JMeterThread: Thread is done: Test GoToRae 3-2
+2024-05-01 11:48:36,325 INFO o.a.j.t.JMeterThread: Thread finished: Test GoToRae 3-2
+2024-05-01 11:48:37,263 INFO o.a.j.t.JMeterThread: Thread is done: Test GoToRae 3-3
+2024-05-01 11:48:37,264 INFO o.a.j.t.JMeterThread: Thread finished: Test GoToRae 3-3
+2024-05-01 11:48:38,390 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-6
+2024-05-01 11:48:38,390 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-6
+2024-05-01 11:48:38,650 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-8
+2024-05-01 11:48:38,650 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-8
+2024-05-01 11:48:38,682 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-2
+2024-05-01 11:48:38,682 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-2
+2024-05-01 11:48:39,462 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-3
+2024-05-01 11:48:39,462 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-3
+2024-05-01 11:48:39,865 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 2 2-1
+2024-05-01 11:48:39,865 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 2 2-1
+2024-05-01 11:48:41,761 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-5
+2024-05-01 11:48:41,761 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-5
+2024-05-01 11:48:42,986 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-4
+2024-05-01 11:48:42,986 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-4
+2024-05-01 11:48:45,642 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-10
+2024-05-01 11:48:45,642 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-10
+2024-05-01 11:48:47,595 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-9
+2024-05-01 11:48:47,596 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-9
+2024-05-01 11:48:47,879 INFO o.a.j.t.JMeterThread: Thread is done: Test GoToRae 3-4
+2024-05-01 11:48:47,879 INFO o.a.j.t.JMeterThread: Thread finished: Test GoToRae 3-4
+2024-05-01 11:48:49,349 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-7
+2024-05-01 11:48:49,349 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-7
+2024-05-01 11:48:49,349 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-05-01 11:48:49,349 INFO o.a.j.s.FileServer: Close: data/data.csv
+2024-05-01 11:48:49,349 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-05-01 11:55:47,495 INFO o.a.j.g.a.Load: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:55:47,495 INFO o.a.j.s.FileServer: Set new base='C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base'
+2024-05-01 11:55:47,495 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 11:59:51,703 INFO o.a.j.s.FileServer: Set new base='C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base'
+2024-05-01 11:59:55,768 INFO o.a.j.g.a.Load: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 11:59:55,768 INFO o.a.j.s.FileServer: Set new base='C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base'
+2024-05-01 11:59:55,768 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:00:57,685 INFO o.a.j.s.FileServer: Set new base='C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base'
+2024-05-01 12:03:01,728 INFO o.a.j.g.a.Load: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\RAE.jmx
+2024-05-01 12:03:01,728 INFO o.a.j.s.FileServer: Set new base='C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso'
+2024-05-01 12:03:01,728 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\RAE.jmx
+2024-05-01 12:03:01,806 INFO o.a.j.r.ClassFinder: Will scan jar C:\PROJECTS\JMETER\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-05-01 12:03:01,821 INFO o.a.j.r.ClassFinder: Will scan jar C:\PROJECTS\JMETER\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-05-01 12:03:01,884 INFO o.a.j.s.FileServer: Set new base='C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso'
+2024-05-01 12:03:01,899 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:01,915 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:01,946 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:01,946 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:01,962 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:01,962 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:01,978 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:01,978 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:01,978 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:01,978 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:02,024 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:02,024 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:02,040 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:02,040 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:02,040 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:02,040 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:02,056 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:02,056 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:02,071 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:02,071 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:03,994 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:03,994 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:04,009 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:04,009 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:04,009 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:04,009 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:04,040 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:04,040 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:04,040 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:04,040 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:04,056 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:04,056 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:04,071 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:04,071 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:04,071 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:04,071 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:04,103 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:04,103 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:04,103 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:04,103 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:04,118 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:04,118 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:04,134 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:04,134 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:04,149 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:04,149 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:04,165 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:04,165 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:04,165 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:04,165 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,070 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,070 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,085 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:37,085 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:37,085 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,085 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,132 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:37,132 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:37,132 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,132 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,148 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,148 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,163 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:37,163 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:37,163 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,163 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,179 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:37,179 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:37,179 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,179 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,194 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,194 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,226 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:37,226 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:37,226 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,226 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,241 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:37,241 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:37,241 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,241 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,257 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-05-01 12:03:37,257 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-05-01 12:03:37,273 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-05-01 12:03:37,382 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Test Case Basico
+2024-05-01 12:03:37,382 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Test Case Basico.
+2024-05-01 12:03:37,382 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-05-01 12:03:37,382 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2024-05-01 12:03:37,382 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,382 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,398 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:37,398 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:37,413 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,413 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,413 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-1
+2024-05-01 12:03:37,413 INFO o.a.j.s.FileServer: Stored: data/data.csv
+2024-05-01 12:03:37,429 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:37,429 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:37,429 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,429 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,462 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:37,462 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:37,467 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,468 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,490 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:37,490 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:37,496 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,497 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,516 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:37,516 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:37,521 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,521 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,540 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:37,540 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:37,545 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,545 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,565 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:37,565 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:37,570 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,570 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,590 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:37,590 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:37,596 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,596 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,615 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:37,615 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:37,620 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,620 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,639 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:37,639 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:37,645 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-05-01 12:03:37,645 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Test Case Basico 2
+2024-05-01 12:03:37,645 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Test Case Basico 2.
+2024-05-01 12:03:37,645 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-05-01 12:03:37,645 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2024-05-01 12:03:37,646 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,646 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,664 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:03:37,665 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:03:37,670 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2024-05-01 12:03:37,670 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Test GoToRae
+2024-05-01 12:03:37,671 INFO o.a.j.e.StandardJMeterEngine: Starting 4 threads for group Test GoToRae.
+2024-05-01 12:03:37,671 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-05-01 12:03:37,671 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=4 ramp-up=4 delayedStart=false
+2024-05-01 12:03:37,671 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,671 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,672 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 2 2-1
+2024-05-01 12:03:37,690 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,690 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,692 INFO o.a.j.t.JMeterThread: Thread started: Test GoToRae 3-1
+2024-05-01 12:03:37,709 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,710 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,729 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:03:37,729 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:03:37,747 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2024-05-01 12:03:37,747 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-05-01 12:03:37,914 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-2
+2024-05-01 12:03:38,423 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-3
+2024-05-01 12:03:38,692 INFO o.a.j.t.JMeterThread: Thread started: Test GoToRae 3-2
+2024-05-01 12:03:38,914 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-4
+2024-05-01 12:03:39,408 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-5
+2024-05-01 12:03:39,693 INFO o.a.j.t.JMeterThread: Thread started: Test GoToRae 3-3
+2024-05-01 12:03:39,909 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-6
+2024-05-01 12:03:40,410 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-7
+2024-05-01 12:03:40,691 INFO o.a.j.t.JMeterThread: Thread started: Test GoToRae 3-4
+2024-05-01 12:03:40,911 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-8
+2024-05-01 12:03:41,408 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-9
+2024-05-01 12:03:41,909 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-10
+2024-05-01 12:03:50,050 INFO o.a.j.t.JMeterThread: Thread is done: Test GoToRae 3-1
+2024-05-01 12:03:50,050 INFO o.a.j.t.JMeterThread: Thread finished: Test GoToRae 3-1
+2024-05-01 12:03:55,552 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 2 2-1
+2024-05-01 12:03:55,552 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 2 2-1
+2024-05-01 12:03:57,032 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-2
+2024-05-01 12:03:57,032 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-2
+2024-05-01 12:03:57,948 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-4
+2024-05-01 12:03:57,948 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-4
+2024-05-01 12:03:58,159 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-3
+2024-05-01 12:03:58,159 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-3
+2024-05-01 12:03:58,181 INFO o.a.j.t.JMeterThread: Thread is done: Test GoToRae 3-2
+2024-05-01 12:03:58,181 INFO o.a.j.t.JMeterThread: Thread finished: Test GoToRae 3-2
+2024-05-01 12:03:58,233 INFO o.a.j.t.JMeterThread: Thread is done: Test GoToRae 3-4
+2024-05-01 12:03:58,233 INFO o.a.j.t.JMeterThread: Thread finished: Test GoToRae 3-4
+2024-05-01 12:03:58,589 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-5
+2024-05-01 12:03:58,589 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-5
+2024-05-01 12:04:00,827 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-7
+2024-05-01 12:04:00,827 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-7
+2024-05-01 12:04:01,211 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-1
+2024-05-01 12:04:01,211 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-1
+2024-05-01 12:04:02,152 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-10
+2024-05-01 12:04:02,152 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-10
+2024-05-01 12:04:03,173 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-9
+2024-05-01 12:04:03,174 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-9
+2024-05-01 12:04:04,537 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-6
+2024-05-01 12:04:04,537 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-6
+2024-05-01 12:04:05,068 INFO o.a.j.t.JMeterThread: Thread is done: Test GoToRae 3-3
+2024-05-01 12:04:05,068 INFO o.a.j.t.JMeterThread: Thread finished: Test GoToRae 3-3
+2024-05-01 12:04:05,229 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-8
+2024-05-01 12:04:05,229 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-8
+2024-05-01 12:04:05,229 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-05-01 12:04:05,229 INFO o.a.j.s.FileServer: Close: data/data.csv
+2024-05-01 12:04:05,229 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-05-01 12:16:34,313 INFO o.a.j.g.a.Load: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:16:34,329 INFO o.a.j.s.FileServer: Set new base='C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base'
+2024-05-01 12:16:34,329 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:16:34,423 INFO o.a.j.s.FileServer: Set new base='C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base'
+2024-05-01 12:17:16,583 INFO o.a.j.g.a.Load: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:16,583 INFO o.a.j.s.FileServer: Set new base='C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base'
+2024-05-01 12:17:16,583 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:16,599 INFO o.a.j.s.FileServer: Set new base='C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base'
+2024-05-01 12:17:32,886 INFO o.a.j.g.a.Load: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\RAE.jmx
+2024-05-01 12:17:32,886 INFO o.a.j.s.FileServer: Set new base='C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso'
+2024-05-01 12:17:32,886 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\RAE.jmx
+2024-05-01 12:17:32,918 INFO o.a.j.r.ClassFinder: Will scan jar C:\PROJECTS\JMETER\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-05-01 12:17:32,933 INFO o.a.j.r.ClassFinder: Will scan jar C:\PROJECTS\JMETER\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-05-01 12:17:32,996 INFO o.a.j.s.FileServer: Set new base='C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso'
+2024-05-01 12:17:33,011 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:33,027 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:33,042 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:33,042 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:33,058 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:33,058 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:33,074 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:33,074 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:33,089 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:33,089 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:33,121 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:33,121 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:33,136 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:33,136 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:33,136 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:33,136 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:33,152 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:33,152 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:33,152 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:33,152 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:41,308 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:41,308 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:41,324 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:41,324 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:41,324 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:41,324 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:41,339 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:41,339 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:41,339 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:41,339 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:41,368 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:41,368 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:41,384 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:41,385 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:41,388 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:41,389 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:41,403 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:41,404 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:41,407 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:41,407 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:41,412 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:41,412 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:41,428 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:41,428 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:41,443 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:41,443 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:41,459 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:41,459 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:41,459 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:41,459 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:43,428 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-05-01 12:17:43,428 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-05-01 12:17:43,443 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-05-01 12:17:43,521 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Test Case Basico
+2024-05-01 12:17:43,521 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Test Case Basico.
+2024-05-01 12:17:43,521 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-05-01 12:17:43,521 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2024-05-01 12:17:43,521 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:43,521 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:43,553 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:43,553 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:43,553 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:43,553 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:43,553 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-1
+2024-05-01 12:17:43,553 INFO o.a.j.s.FileServer: Stored: data/data.csv
+2024-05-01 12:17:43,568 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:43,568 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:43,568 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:43,584 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:43,601 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:43,601 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:43,605 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:43,606 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:43,628 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:43,628 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:43,633 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:43,633 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:43,650 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:43,650 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:43,654 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:43,655 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:43,673 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:43,673 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:43,680 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:43,680 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:43,696 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:43,696 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:43,700 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:43,700 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:43,717 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:43,717 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:43,721 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:43,721 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:43,737 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:43,737 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:43,742 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:43,742 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:43,758 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:43,759 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:43,763 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-05-01 12:17:43,763 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Test Case Basico 2
+2024-05-01 12:17:43,763 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Test Case Basico 2.
+2024-05-01 12:17:43,763 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-05-01 12:17:43,763 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2024-05-01 12:17:43,763 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:17:43,763 INFO o.a.j.s.SaveService: Loading file: base\GoToRAE.jmx
+2024-05-01 12:17:43,780 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:17:43,780 INFO o.a.j.s.SaveService: Loading file: base\SearchWord.jmx
+2024-05-01 12:17:43,785 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2024-05-01 12:17:43,785 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Test GoToRae
+2024-05-01 12:17:43,785 INFO o.a.j.e.StandardJMeterEngine: Starting 4 threads for group Test GoToRae.
+2024-05-01 12:17:43,785 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-05-01 12:17:43,785 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=4 ramp-up=4 delayedStart=false
+2024-05-01 12:17:43,785 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PRO2024-05-01 12:22:15,944 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:15,944 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,069 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,069 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,084 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,084 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,131 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,131 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,147 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,147 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,178 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,178 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,194 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,194 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,209 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,209 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,241 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,241 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,241 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,241 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,272 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,272 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,303 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,303 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,303 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,303 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,366 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,366 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,366 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,366 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,397 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-05-01 12:22:16,412 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-05-01 12:22:16,428 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-05-01 12:22:16,569 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Test Case Basico
+2024-05-01 12:22:16,569 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Test Case Basico.
+2024-05-01 12:22:16,569 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-05-01 12:22:16,569 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2024-05-01 12:22:16,569 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,569 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,600 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,600 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,600 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,600 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,600 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-1
+2024-05-01 12:22:16,616 INFO o.a.j.s.FileServer: Stored: 2024-05-01 12:23:14,933 INFO o.a.j.g.a.Load: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\RAE.jmx
+2024-05-01 12:23:14,933 INFO o.a.j.s.FileServer: Set new base='C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso'
+2024-05-01 12:23:14,933 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\RAE.jmx
+2024-05-01 12:23:14,964 INFO o.a.j.r.ClassFinder: Will scan jar C:\PROJECTS\JMETER\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-05-01 12:23:14,980 INFO o.a.j.r.ClassFinder: Will scan jar C:\PROJECTS\JMETER\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-05-01 12:23:15,043 INFO o.a.j.s.FileServer: Set new base='C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso'
+2024-05-01 12:23:15,058 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:23:15,058 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:23:15,074 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:23:15,074 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:23:15,074 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:23:15,074 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:23:15,105 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:23:15,105 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:23:15,105 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:23:15,105 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:23:15,136 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:23:15,136 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:23:15,152 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:23:15,152 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:23:15,152 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:23:15,152 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:23:15,183 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:23:15,183 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:23:15,183 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:23:15,199 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,835 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,841 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,841 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,872 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,872 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,878 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-05-01 12:22:16,878 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Test Case Basico 2
+2024-05-01 12:22:16,878 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Test Case Basico 2.
+2024-05-01 12:22:16,879 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-05-01 12:22:16,879 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2024-05-01 12:22:16,879 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,879 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,909 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,909 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\SearchWord.jmx
+2024-05-01 12:22:16,915 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2024-05-01 12:22:16,915 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Test GoToRae
+2024-05-01 12:22:16,916 INFO o.a.j.e.StandardJMeterEngine: Starting 4 threads for group Test GoToRae.
+2024-05-01 12:22:16,916 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-05-01 12:22:16,916 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=4 ramp-up=4 delayedStart=false
+2024-05-01 12:22:16,916 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,916 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,918 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 2 2-1
+2024-05-01 12:22:16,947 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,947 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,949 INFO o.a.j.t.JMeterThread: Thread started: Test GoToRae 3-1
+2024-05-01 12:22:16,979 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:16,980 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:17,011 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:17,011 INFO o.a.j.s.SaveService: Loading file: C:\PROJECTS\JMETER\src\RAEComplexCasoDeUso\base\GoToRAE.jmx
+2024-05-01 12:22:17,042 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2024-05-01 12:22:17,042 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-05-01 12:22:17,112 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-2
+2024-05-01 12:22:17,603 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-3
+2024-05-01 12:22:17,952 INFO o.a.j.t.JMeterThread: Thread started: Test GoToRae 3-2
+2024-05-01 12:22:18,096 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-4
+2024-05-01 12:22:18,596 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-5
+2024-05-01 12:22:18,951 INFO o.a.j.t.JMeterThread: Thread started: Test GoToRae 3-3
+2024-05-01 12:22:19,097 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-6
+2024-05-01 12:22:19,604 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-7
+2024-05-01 12:22:19,949 INFO o.a.j.t.JMeterThread: Thread started: Test GoToRae 3-4
+2024-05-01 12:22:20,109 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-8
+2024-05-01 12:22:20,611 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-9
+2024-05-01 12:22:21,109 INFO o.a.j.t.JMeterThread: Thread started: Test Case Basico 1-10
+2024-05-01 12:22:29,812 INFO o.a.j.t.JMeterThread: Thread is done: Test GoToRae 3-1
+2024-05-01 12:22:29,812 INFO o.a.j.t.JMeterThread: Thread finished: Test GoToRae 3-1
+2024-05-01 12:22:33,750 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 2 2-1
+2024-05-01 12:22:33,750 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 2 2-1
+2024-05-01 12:22:34,229 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-4
+2024-05-01 12:22:34,229 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-4
+2024-05-01 12:22:34,773 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-1
+2024-05-01 12:22:34,773 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-1
+2024-05-01 12:22:35,925 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-5
+2024-05-01 12:22:35,925 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-5
+2024-05-01 12:22:36,311 INFO o.a.j.t.JMeterThread: Thread is done: Test GoToRae 3-2
+2024-05-01 12:22:36,311 INFO o.a.j.t.JMeterThread: Thread finished: Test GoToRae 3-2
+2024-05-01 12:22:36,619 INFO o.a.j.t.JMeterThread: Thread is done: Test GoToRae 3-3
+2024-05-01 12:22:36,619 INFO o.a.j.t.JMeterThread: Thread finished: Test GoToRae 3-3
+2024-05-01 12:22:38,327 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-9
+2024-05-01 12:22:38,327 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-9
+2024-05-01 12:22:38,415 INFO o.a.j.t.JMeterThread: Thread is done: Test GoToRae 3-4
+2024-05-01 12:22:38,415 INFO o.a.j.t.JMeterThread: Thread finished: Test GoToRae 3-4
+2024-05-01 12:22:40,130 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-8
+2024-05-01 12:22:40,130 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-8
+2024-05-01 12:22:41,109 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-10
+2024-05-01 12:22:41,109 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-10
+2024-05-01 12:22:42,446 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-6
+2024-05-01 12:22:42,446 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-6
+2024-05-01 12:22:43,492 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-3
+2024-05-01 12:22:43,492 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-3
+2024-05-01 12:22:44,517 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-7
+2024-05-01 12:22:44,517 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-7
+2024-05-01 12:22:44,757 INFO o.a.j.t.JMeterThread: Thread is done: Test Case Basico 1-2
+2024-05-01 12:22:44,757 INFO o.a.j.t.JMeterThread: Thread finished: Test Case Basico 1-2
+2024-05-01 12:22:44,757 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-05-01 12:22:44,757 INFO o.a.j.s.FileServer: Close: data/data.csv
+2024-05-01 12:22:44,757 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
