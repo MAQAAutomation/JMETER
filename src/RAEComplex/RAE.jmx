@@ -6,6 +6,8 @@
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments">
         <collectionProp name="Arguments.arguments"/>
       </elementProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
     </TestPlan>
     <hashTree>
       <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager">
@@ -2846,7 +2848,7 @@
           </UniformRandomTimer>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://${__P(url_base)}/sites/default/files/2024-02/La%20RAE%20informa%20-%20Voseo%20%281%29.mp3">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://${__P(url_base)}/sites/default/files/2024-02/La%20RAE%20informa%20-%20Voseo%20%281%29.mp3" enabled="true">
           <stringProp name="HTTPSampler.domain">${__P(url_base)}</stringProp>
           <stringProp name="HTTPSampler.port">0</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -3560,7 +3562,7 @@
           </UniformRandomTimer>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://${__P(url_base)}/core/themes/stable/images/core/throbber-active.gif">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://${__P(url_base)}/core/themes/stable/images/core/throbber-active.gif" enabled="true">
           <stringProp name="HTTPSampler.domain">${__P(url_base)}</stringProp>
           <stringProp name="HTTPSampler.port">0</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -3721,7 +3723,7 @@
             <stringProp name="ConstantTimer.delay">801.6</stringProp>
           </UniformRandomTimer>
           <hashTree/>
-          <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="CSS Selector Extractor">
+          <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="CSS Selector Extractor" enabled="true">
             <stringProp name="HtmlExtractor.refname">CSS_EXTRACTOR_TITLE</stringProp>
             <stringProp name="HtmlExtractor.expr">header[title^=&quot;Definición de&quot;]</stringProp>
             <stringProp name="HtmlExtractor.attribute">title</stringProp>
@@ -3742,6 +3744,7 @@ if (!title.contains(vars.get(&quot;PALABRA&quot;)))
 {
 	log.info(&quot;ASSERTION KO*******************************************************************************************&quot;);
      log.info(title);
+     log.info(vars.get(&quot;PALABRA&quot;));
 	log.info(&quot;ASSERTION KO*******************************************************************************************&quot;);
  	AssertionResult.setFailure(true);
  	AssertionResult.setFailureMessage(&apos;word &apos; + vars.get(&quot;PALABRA&quot;) + &apos; are not included into the title: &apos; + title.toString());
@@ -3906,7 +3909,7 @@ if (!title.contains(vars.get(&quot;PALABRA&quot;)))
           </UniformRandomTimer>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://${__P(url_busqueda)}/favicon-32x32.png">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://${__P(url_busqueda)}/favicon-32x32.png" enabled="true">
           <stringProp name="HTTPSampler.domain">${__P(url_busqueda)}</stringProp>
           <stringProp name="HTTPSampler.port">0</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -3984,7 +3987,7 @@ if (!title.contains(vars.get(&quot;PALABRA&quot;)))
           <hashTree/>
         </hashTree>
       </hashTree>
-      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -4021,7 +4024,7 @@ if (!title.contains(vars.get(&quot;PALABRA&quot;)))
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report">
+      <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
